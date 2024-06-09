@@ -126,3 +126,31 @@ export const rolesFooter = [
     link: ''
   },
 ]
+
+export const slidesData = [
+  {
+    title: 'Tư vấn giải pháp công nghệ',
+    desc: 'Chúng tôi là đội ngũ chuyên gia công nghệ, cam kết mang đến cho doanh nghiệp của bạn những giải pháp đột phá và hiệu quả. Với tư vấn chúng tôi, bạn sẽ tiết kiệm được thời gian, công sức và tài nguyên.',
+    image: 'seo-1.png'
+  },
+  {
+    title: 'Cung ứng nhân sự chất lượng',
+    desc: 'Với dịch vụ cho thuê nhân sự ngắn hạn và trung hạn, chúng tôi đáp ứng nhanh chóng và linh hoạt cho các dự án và công việc tạm thời, giúp bạn tiết kiệm thời gian và chi phí tuyển dụng.',
+    image: 'seo-2.png'
+  },
+  {
+    title: 'Phân phối các sản phẩm SaaS',
+    desc: 'Chúng tôi là nhà phân phối hàng đầu các sản phẩm SaaS, cung cấp sự tiện ích và hiện đại cho doanh nghiệp. Bao gồm: Office 365, Power BI Service, Misa Vietnam, Amazon Web Services (AWS), Microsoft Azure.',
+    image: 'seo-3.png'
+  },
+  {
+    title: 'Giải pháp công nghệ phần mềm',
+    desc: 'Zenix 4.0 – Giải pháp công nghệ phần mềm hàng đầu cho doanh nghiệp hiện đại. Với khả năng tùy chỉnh và mở rộng, sản phẩm Zenix 4.0 giúp tối ưu hóa hiệu quả quản lý doanh nghiệp.',
+    image: 'seo-4.png'
+  },
+  {
+    title: 'Giải pháp công nghệ phần mềm',
+    desc: 'Zenix 4.0 – Giải pháp công nghệ phần mềm hàng đầu cho doanh nghiệp hiện đại. Với khả năng tùy chỉnh và mở rộng, sản phẩm Zenix 4.0 giúp tối ưu hóa hiệu quả quản lý doanh nghiệp.',
+    image: 'seo-5.png'
+  }
+];

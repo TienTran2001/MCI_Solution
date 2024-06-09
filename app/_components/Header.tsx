@@ -76,7 +76,7 @@ const Header = () => {
         </a>
       </div>
       {/* nav */}
-      <nav className='h-full flex items-center'>
+      <nav className='hidden  h-full md:flex items-center'>
         <ul className='flex items-center h-full text-gray-600'>
           {nav.length > 0 &&
             nav.map((item) =>

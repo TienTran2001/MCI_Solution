@@ -46,6 +46,13 @@
   -webkit-line-clamp: 2;
 }
 
+.truncate-7-lines {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+
 .news-today-item:hover button {
   background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
 }
@@ -101,3 +108,27 @@
 /* .nav-item:hover {
   border-bottom: 3px solid #ccc;
 } */
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 40px;
+  z-index: 999;
+  line-height: 1;
+  opacity: 0.35;
+  color: blue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.item-slider:hover .item-slider-container {
+  background: linear-gradient(45deg, #bc0d2c, #e65f1e);
+}
+.btn-plus:hover {
+  transform: scale(1.2) translateX(50%);
+}
+
+.btn-all:hover {
+  background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
+  color: white;
+}
