@@ -2,32 +2,102 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/*  */
+* {
+  font-size: 16px;
+}
+.text-gradient {
+  background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg-linear {
+  background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
+}
+.bg-linear-light {
+  background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.about-item:hover {
+  background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.about-item:hover img {
+  filter: brightness(0) invert(1);
+  color: white;
 }
+
+.text-gradient-hover:hover {
+  background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link:hover,
+.dropdown-toggle:hover {
+  background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.truncate-2-lines {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.news-today-item:hover button {
+  background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -25px;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 3.5px;
+  background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
+  border-radius: 10px;
+  display: none;
+}
+
+.nav-link:hover::after {
+  display: inline-block;
+}
+
+.dropdown-toggle::after {
+  content: '';
+  width: 10px;
+  height: 3.5px;
+  border-top: 0.25em solid;
+  border-right: 0.25em solid transparent;
+  border-bottom: 0;
+  border-left: 0.25em solid transparent;
+}
+
+.dropdown-toggle:hover::after {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 3.5px;
+}
+
+/* .nav-item:hover {
+  border-bottom: 3px solid #ccc;
+} */
