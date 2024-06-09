@@ -6,6 +6,11 @@
 * {
   font-size: 16px;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 .text-gradient {
   background: linear-gradient(92.5deg, #b7042d 6.07%, #e65f1d 93.93%);
   -webkit-background-clip: text;

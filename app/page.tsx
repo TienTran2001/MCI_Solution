@@ -16,7 +16,7 @@ export default function Home() {
       <section className="mt-10 md:mt-20 bg-custom-image bg-center bg-cover py-[30px]">
         <div className=" max-w-container  w-full mx-auto md:flex">
           <div className="md:w-1/2 px-3 flex flex-col gap-y-4">
-            <h2 className="text-lg md:text-[35px] md:leading-10 mt-[30px]  text-[#C41D29] font-bold">Dẫn đầu giải pháp chuyển đổi số về quản lý khách hàng & vận hành doanh nghiệp</h2>
+            <h2 className="text-lg md:text-[35px] md:leading-[50px] mt-[30px]  text-[#C41D29] font-bold">Dẫn đầu giải pháp chuyển đổi số về quản lý khách hàng & vận hành doanh nghiệp</h2>
             <p className="text-md md:text-xl text-black-light ">
               Nền tảng quản lý toàn diện với các dashboard hỗ trợ khách hàng và cung ứng nhận sự chất lượng cao.
             </p>
@@ -188,7 +188,7 @@ export default function Home() {
       <section className="mt-[100px] py-10  bg-connect-banner bg-no-repeat bg-center bg-cover">
         <div className="max-w-container w-full mx-auto  md:flex items-center px-3 md:px-0">
           <div className="md:w-1/2 flex flex-col gap-y-4">
-            <h2 className="text-xl md:text-[35px] md:leading-10  text-white font-bold">Doanh nghiệp của bạn đã sẵn sàng chuyển đổi tốt hơn?</h2>
+            <h2 className="text-xl md:text-[35px] md:leading-[50px]  text-white font-bold">Doanh nghiệp của bạn đã sẵn sàng chuyển đổi tốt hơn?</h2>
             <p className='text-xs md:text-[15px]  text-white'>Ứng dụng công nghệ tự động hàng đầu ngay bây giờ cùng chuyên gia của chúng tôi!</p>
             <div className="flex flex-col gap-y-2 md:gap-y-0 md:flex-row md:items-center md:justify-center">
               <div className="md:w-1/2">
@@ -216,7 +216,7 @@ export default function Home() {
               Xu thế tất yếu
             </span>
           </span>
-          <h2 className="text-lg md:text-[30px] md:leading-10 text-red-light font-bold">
+          <h2 className="text-lg md:text-[30px] md:leading-[50px] text-red-light font-bold">
             Đồng hành xu thế chuyển đổi số cho doanh nghiệp cả nước.
           </h2>
           <p className="text-sm md:text-base" >Liên hệ ngay với chúng tôi qua số hotline <span className="text-red-light text-sm md:text-base font-bold">093.414.6016</span> để được hướng dẫn.</p>
